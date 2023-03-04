@@ -66,8 +66,59 @@ a:hover{
 
 /* 2 */
 nav:{
-    background: #24662A;
+    background: #24662A;  
 }
 nav div{
-    
+   display: nome;
+}
+
+/* 3 */
+tr:nth-child(4){
+    display: none;
+}
+
+/* 4 */
+tr:nth-child(3n){
+    background:#DB8B0B(211,211,86);
+}
+
+/* 5 */
+tr:nth-child(1){
+    background: #8F140E;
+}
+
+/* 6 */
+section:first-child{
+    background: #8F5D0E;
+}
+section:first-child + section{
+    background: #F28705;
+}
+section:last-child{
+    background: #D9B504(141,104,11);
+}
+
+/* 7 */
+#sobre{
+    color: #A68B03;
+}
+#produtos{
+    color:  #8C5C03;
+}
+#endereco{
+    color: #730C02;
+}
+
+/* 8 */
+td:nth-child(2):not(tr:first-child td)::before{
+    content: "R$";
+}
+/* 9 */
+a[href*"https://"]{
+    color: #E80800
+}
+
+/* 13 */
+tr:not(tr:first-child):hover{
+    background: #FF532F;
 }
