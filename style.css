@@ -122,3 +122,8 @@ a[href*"https://"]{
 tr:not(tr:first-child):hover{
     background: #FF532F;
 }
+header img:hover{
+    transform:rotate(7turn);
+    filter:blur(5px);
+    transition: 2s;   
+}
